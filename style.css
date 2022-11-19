@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    /* background-color: #f6f8fb; */
+    background-color: rebeccapurple;
+    font-family: sans-serif;
+    /* font-family: Montserrat; */
+}
+
+.nav-bar {
+    background-color: #fcfcfc;
+    /* background-color: burlywood; */
+    border-bottom: 2px solid #f6f8fb;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-img {
+    margin-left: 20px;
+}
+
+.form-field {
+    width: 300px;
+    height: 42px;
+    margin: 0 auto;
+    display: flex;
+}
+
+/* ПОЛЕ ПОИСКА */
+.search-field {
+    height: 42px;
+    width: 250px;
+    background: #f6f8fb;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.btn-search {
+    width: 42px;
+    height: 42px;
+    background: url(./img/lupa.svg) no-repeat center/50%, #f6f8fb;
+
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* ИКОНКИ АККАУНТА */
+
+.account-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+.icon-size {
+    height: 25px;
+}
