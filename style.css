@@ -24,6 +24,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    border-radius: 5px;
 }
 
 .logo-img {
@@ -36,11 +38,17 @@ body {
     background-color: red;
 }
 
-.score {
-    margin-top: 5px;
+.superior-score-window {
     background-color: #fcfcfc;
     width: 300px;
     border-radius: 5px;
+    height: 500px;
+}
+
+.score {
+    margin-top: 5px;
+    /* background-color: #fcfcfc; */
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -69,6 +77,40 @@ body {
     margin-left: 10px;
     font-size: 21px;
     color: #fff;
+    position: relative;
+}
+
+.percent {
+    position: absolute;
+    font-size: 14px;
+    bottom: 7px;
+    right: 16px;
+    font-weight: normal;
+
+    width: 55px;
+    height: 20px;
+
+    text-align: center;
+
+    border-radius: 20px;
+    background-color: #fff;
+    color: #00af59;
+}
+
+.left-icons {
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+.item-left-icon {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 20px;
+}
+
+.statistics {
+    margin-top: 10px;
 }
 
 /* ПОЛЕ ПОИСКА */
