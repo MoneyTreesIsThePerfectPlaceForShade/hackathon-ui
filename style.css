@@ -11,15 +11,15 @@
 
 body {
     /* background-color: #f6f8fb; */
-    background-color: rebeccapurple;
+    background-color: rgb(51, 153, 73);
     font-family: "Montserrat", sans-serif;
 }
 
 /* Нав. панель */
 .nav-bar {
     margin-top: 10px;
+    margin-bottom: 5px;
     background-color: #fcfcfc;
-    /* background-color: burlywood; */
     border-bottom: 2px solid #f6f8fb;
     height: 75px;
     display: flex;
@@ -35,8 +35,11 @@ body {
 
 /* Основная панель */
 .main-window {
-    /* background-color: #f6f8fb; */
-    background-color: red;
+    background-color: #f6f8fb;
+    /* background-color: red; */
+    display: flex;
+
+    border-radius: 5px;
 }
 
 .superior-score-window {
@@ -57,7 +60,8 @@ body {
 
 .money {
     margin: 15px 0px;
-    background-color: #00388b;
+    /* background-color: #00388b; */
+    background: linear-gradient(to right, #00388b, black);
     width: 220px;
     height: 75px;
     text-align: left;
@@ -209,4 +213,68 @@ body {
 
 .icon-size {
     height: 25px;
+}
+
+/* СТРОКА ВАЛЮТ */
+.currency-line {
+    background-color: #fff;
+
+    margin: 20px 30px;
+    height: 90px;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+}
+
+.currency-item {
+    height: 80px;
+    width: 180px;
+
+    background-color: #fff;
+    /* text-align: center; */
+    margin: 0px 10px;
+
+    border-radius: 25px;
+    text-align: center;
+}
+
+.currency-item:hover {
+    border: 2px solid #efefef;
+}
+
+.currency-margin {
+    margin: 0px 5px;
+}
+
+.positive {
+    color: #00af59;
+    margin-top: 8px;
+}
+
+.negative {
+    color: #ff5157;
+    margin-top: 8px;
+}
+
+.add-currency {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.currency-item-btn {
+    height: 80px;
+    width: 180px;
+
+    background-color: #fff;
+    margin: 0px 10px;
+    border-radius: 25px;
+    cursor: pointer;
+
+    border: none;
+}
+
+.currency-item-btn:hover {
+    border: 2px solid #efefef;
 }
