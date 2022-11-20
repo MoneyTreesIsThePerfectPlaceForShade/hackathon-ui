@@ -10,8 +10,8 @@
 }
 
 body {
-    /* background-color: #f6f8fb; */
-    background-color: rgb(51, 153, 73);
+    background-color: #f6f8fb;
+    /* background-color: rgb(51, 153, 73); */
     font-family: "Montserrat", sans-serif;
 }
 
@@ -31,6 +31,13 @@ body {
 
 .logo-img {
     margin-left: 20px;
+}
+
+.logo-h1 {
+    margin-left: 40px;
+    background: -webkit-linear-gradient(#00388b, black 99%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* Основная панель */
